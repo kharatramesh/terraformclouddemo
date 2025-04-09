@@ -16,7 +16,7 @@ terraform {
   cloud {
     organization = "natwest-training"
     workspaces {
-      name = "project1-w1-cli"
+      name = "project2-w1"
     }
   }
 }
