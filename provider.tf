@@ -15,6 +15,7 @@ provider "aws" {
 terraform {
   cloud {
     organization = "natwest-training"
+    hostname = app.terraform.io
     workspaces {
       name = "project2-w1"
     }
